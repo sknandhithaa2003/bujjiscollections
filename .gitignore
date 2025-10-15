@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ====================================
+# 🚀 PRODUCTION BUILD OUTPUT
+# ====================================
+.next/
+out
+build
+dist
+
+# ====================================
+# ⚙️ DEPENDENCIES
+# ====================================
+node_modules/
+
+# ====================================
+# 🧩 ENVIRONMENT VARIABLES
+# ====================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ====================================
+# 🧱 TYPESCRIPT BUILD FILES
+# ====================================
+*.tsbuildinfo
+
+# ====================================
+# 🪄 LOGS
+# ====================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ====================================
+# ☁️ DEPLOYMENT (VERCEL, ETC.)
+# ====================================
+.vercel/
+
+# ====================================
+# 💻 EDITOR + SYSTEM FILES
+# ====================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ====================================
+# 🧪 TEST COVERAGE
+# ====================================
+coverage/
